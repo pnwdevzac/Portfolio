@@ -9,17 +9,19 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
+        <LinkTitle>Web Development <br></br>By Zac Hartman</LinkTitle>
+        </LinkColumn>
+        <LinkColumn>
           <LinkTitle>Call</LinkTitle>
           <LinkItem href="tel: 425-529-8009">425-529-8009</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto: zacbhartman@yahoo.com">zacbhartman@yahoo.com</LinkItem>
+          <LinkItem href="mailto: zacbhartman@yahoo.com">zbh206@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/pnwdevzac">

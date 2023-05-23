@@ -10,9 +10,7 @@ const Timeline = () => {
   const [activeItem, setActiveItem] = useState(0);
   const carouselRef = useRef();
 
-  const scroll = (node, left) => {
-    return node.scrollTo({ left, behavior: 'smooth' });
-  }
+
 
   const handleClick = (e, i) => {
     e.preventDefault();
@@ -44,11 +42,9 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionTitle>About Me</SectionTitle>
+      <SectionTitle>History</SectionTitle>
       <SectionText>
-        Developer based in the Pacific Northwest <br></br>
-        Passionate about learning new technologies <br></br>
-        Enveloped with a hunger for problem solving  <br></br>
+        Humble Roots  <br></br>
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

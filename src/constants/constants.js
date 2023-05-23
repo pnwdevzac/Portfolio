@@ -1,9 +1,10 @@
 export const projects = [
   {
-    title: 'Admin Dashboard App',
-    description: "Using React, Node.js, and Syncfusion our goal was to create a versatile and modern Adminstrator dashboard application.", 
+    title: 'Get stoked for',
+    
       image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
+      tags: ['Clothing Optional', 'The Panda Conspiracy', 'Perfect By Tomorrow',
+       'Blue Jay and Surprise Guests'],
     source: 'http://admindashapp.netlify.app/',
     visit: 'https://admindashapp.netlify.app/',
     id: 0,
@@ -39,9 +40,8 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2019, text: 'Started my journey through self-taught courses, and shortly thereafter enrolled full-time at University.', },
-  { year: 2021, text: 'Graduated with a calculus blemished 3.97 gpa in Software Development at Bates', },
-  { year: 2021, text: 'Transferred to WGU for my Bachelors Degree in Software Development', },
-  { year: 2022, text: 'Purchased my first domain and hosted my projects for the wordl to see', },
-  { year: 2023, text: 'Early winer graduation from WGU', },
+  { year: 2019, text: 'Started construction of stage, tending to the site', },
+  { year: 2021, text: 'First festival', },
+  { year: 2022, text: 'Second Festival', },
+  { year: 2023, text: 'Third annual', },
 ];

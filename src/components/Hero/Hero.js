@@ -9,14 +9,15 @@ const Hero = (props) => (
     <LeftSection>
       <SectionTitle main center>
         Welcome To <br />
-        My Personal Portfolio
+        The 2023 
+        Hoot N Holler!
 
       </SectionTitle>
       <SectionText>
-        My purpose and goal is to constantly learn and improve upon my knowledge base as a developer and adapt to the rapidly changing world and tools being used.
+        Insert radical mantra, intro section here.
         
         </SectionText>
-        <Button onClick={() => window.location = 'https://nextjs.org/'}>Learn More</Button>
+
     </LeftSection>
   </Section>
 );

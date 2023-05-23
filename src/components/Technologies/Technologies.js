@@ -6,13 +6,9 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider divider />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Special Thanks</SectionTitle>
     <SectionText>
-      I've worked with a range of technologies in web development. <br></br>
-      Back end development utizing Node.js, Java, C#, and SQL.<br></br>
-      Front-End design utlizing React, Next.js, Html5, CSS3<br></br>
-      Testing with Jira<br></br>
-      UI/UX Design with Figma
+      From the roots
     </SectionText>
     <List>
       <ListItem>
@@ -20,10 +16,9 @@ const Technologies = () =>  (
           <DiReact size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Setting</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React, Next.js, jQuery, HTML, CSS
+            Info
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -32,10 +27,9 @@ const Technologies = () =>  (
           <DiFirebase size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Bands</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node.js, Express, SQL
+            Info
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -44,10 +38,9 @@ const Technologies = () =>  (
           <DiZend size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Behind The Scenes</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            tools like Figma, Adobe XD
+            info
           </ListParagraph>
         </ListContainer>
       </ListItem>
